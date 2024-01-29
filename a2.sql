@@ -1,7 +1,3 @@
--- Add below your SQL statements. 
--- You can create intermediate views (as needed). Remember to drop these views after you have populated the result tables.
--- You can use the "\i a2.sql" command in psql to execute the SQL commands in this file.
-
 -- Query 1 statements
 CREATE VIEW temp AS
 	SELECT C.cname AS nName, C.cid AS nCID, C.height AS neighbourHeight
