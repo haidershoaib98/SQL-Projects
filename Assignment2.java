@@ -60,7 +60,7 @@ public class Assignment2 {
 		}
 	}
 
-	// Closes the connection. Returns true if closure was sucessful
+	// Closes the connection. Returns true if closure was sucessful, or else returns false
 	public boolean disconnectDB() {
 		try {
 			connection.close();
